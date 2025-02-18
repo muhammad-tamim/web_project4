@@ -1,0 +1,189 @@
+/* Google Fonts */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*Default styles */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#F5F5F5;
+}
+#hero, #pillarsOfBangladesh, #theVisionOfFuture,
+#blockQuote, #yourOpinionMatter, #recentNews,
+#donateToday, #subscribeNewsletter{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+}
+#nav{
+    margin-bottom: 19px;
+}
+/* Shared styles*/
+/* buttons */
+.nav-button{
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    font-weight: 600;
+    font-size: 18px;
+}
+.hero-button{
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.visionOfFuture-button1{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.visionOfFuture-button2{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.visionOfFuture-button3            {
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+.yourOpinionMatter-button{
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    border: 1px solid #0E0E0E;
+    color: #0E0E0E;
+    font-weight: 500;
+    font-size: 16px;
+}
+.recentNews-button{
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.donateToday-PrimaryButton1{
+    padding: 40px;
+    border-radius: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: rgb(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+    font-size: 40px;
+}
+.donateToday-primaryButton2{
+    padding: 40px;
+    border-radius: 16px;
+    border: none;
+    background-color: #C6E4D6;
+    box-shadow: rgb(14, 14, 14, 0.15);
+    color: rgba(14, 14, 14, 0.8);
+    font-weight: 700;
+    font-size: 40px;
+}
+.donateToday-secondaryButton{
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+    background-color: #006A50;
+    box-shadow: rgb(14, 14, 14, 0.1);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+.subscribeNewsletter-button{
+    padding: 17px 34px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* Headings and paragraphs*/
+.nav-heading, .footer_heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.hero-heading1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.hero-heading2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.pillarsOfBangladesh-heading1, .visionOfFuture-heading1, 
+.yourOpinionMatter-heading1, .recentNews-heading1,
+.donateToday-heading, .subscribeNewsletter-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.pillarsOfBangladesh-heading2, .visionOfFuture-heading2, 
+.blockQuote-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+.pillarsOfBangladesh-paragraph, .visionOfFuture-paragraph,
+.recentNews-paragraph, .donateToday-paragraph, .subscribeNewsletter-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.blockQuote-paragraph1{
+    color: rgba(14, 14, 14, 0.8);
+}
+.blockQuote-paragraph2{
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.yourOpinionMatter-heading2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+.yourOpinionMatter-paragraph{
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+.recentNews-heading2{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.donateToday-paragraph2{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
