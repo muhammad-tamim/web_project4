@@ -20,6 +20,8 @@ body{
     margin-bottom: 80px;
 }
 #nav{
+    margin-left: 160px;
+    margin-right: 160px;
     margin-bottom: 19px;
 }
 /* Shared styles*/
@@ -186,4 +188,31 @@ body{
 .donateToday-paragraph2{
     font-size: 20px;
     color: rgba(14, 14, 14, 0.3);
+}
+
+
+/* Nav Section */
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0;
+}
+
+/* Hero Section */
+.heroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 24px;
+    padding: 60px;
+    padding: 60px;
+}
+.heroItem1 > p{
+    padding-bottom: 16px;
+}
+.heroItem1 > h1{
+    padding-bottom: 24px;
 }
