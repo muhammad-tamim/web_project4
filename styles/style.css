@@ -216,3 +216,23 @@ body{
 .heroItem1 > h1{
     padding-bottom: 24px;
 }
+
+/* Pillars of Bangladesh Section*/
+.pillarsOfBangladesh-CardContainer{
+    display: flex;
+    gap: 24px;
+}
+.pillarsOfBangladesh-CardItem{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+}
+.pillarsOfBangladesh-CardItem  img{
+    margin-bottom: 24px;
+}
+.pillarsOfBangladesh-CardItem h4{
+    padding-bottom: 12px;
+}
