@@ -13,8 +13,7 @@ body{
     background-color:#F5F5F5;
 }
 #hero, #pillarsOfBangladesh, #theVisionOfFuture,
-#blockQuote, #yourOpinionMatter, #recentNews,
-#donateToday, #subscribeNewsletter{
+#yourOpinionMatter, #recentNews, #donateToday, #subscribeNewsletter{
     margin-left: 160px;
     margin-right: 160px;
     margin-bottom: 80px;
@@ -23,6 +22,11 @@ body{
     margin-left: 160px;
     margin-right: 160px;
     margin-bottom: 19px;
+}
+#blockQuote{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 32px;
 }
 /* Shared styles*/
 /* buttons */
@@ -43,7 +47,7 @@ body{
     font-weight: 600;
     font-size: 18px;
 }
-.visionOfFuture-button1{
+.theVisionOfFuture-button1{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -52,7 +56,7 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
-.visionOfFuture-button2{
+.theVisionOfFuture-button2{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -61,7 +65,7 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
-.visionOfFuture-button3            {
+.theVisionOfFuture-button3            {
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -144,20 +148,20 @@ body{
     color: #0E0E0E;
 }
 
-.pillarsOfBangladesh-heading1, .visionOfFuture-heading1, 
+.pillarsOfBangladesh-heading1, .theVisionOfFuture-heading1, 
 .yourOpinionMatter-heading1, .recentNews-heading1,
 .donateToday-heading, .subscribeNewsletter-heading{
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
 }
-.pillarsOfBangladesh-heading2, .visionOfFuture-heading2, 
+.pillarsOfBangladesh-heading2, .theVisionOfFuture-heading2, 
 .blockQuote-heading{
     font-size: 20px;
     font-weight: 700;
     color: rgba(14, 14, 14, 0.8);
 }
-.pillarsOfBangladesh-paragraph, .visionOfFuture-paragraph,
+.pillarsOfBangladesh-paragraph, .theVisionOfFuture-paragraph,
 .recentNews-paragraph, .donateToday-paragraph, .subscribeNewsletter-paragraph{
     color: rgba(14, 14, 14, 0.7);
 }
@@ -209,6 +213,7 @@ body{
     border-radius: 24px;
     padding: 60px;
     padding: 60px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
 }
 .heroItem1 > p{
     padding-bottom: 16px;
@@ -218,6 +223,9 @@ body{
 }
 
 /* Pillars of Bangladesh Section*/
+#pillarsOfBangladesh > h2{
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
 .pillarsOfBangladesh-CardContainer{
     display: flex;
     gap: 24px;
@@ -227,7 +235,7 @@ body{
     border: none;
     border-radius: 16px;
     padding: 24px;
-    box-shadow: rgba(14, 14, 14, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
     margin-top: 32px;
 }
 .pillarsOfBangladesh-CardItem  img{
@@ -235,4 +243,43 @@ body{
 }
 .pillarsOfBangladesh-CardItem h4{
     padding-bottom: 12px;
+}
+
+/* The Vision of Future */
+.theVisionOfFutureDescription h2{
+    padding-bottom: 28px;
+}
+.theVisionOfFutureDescription{
+    margin-bottom: 32px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.theVisionOfFuture-cardContainer{
+    display: flex;
+    gap: 24px;
+}
+.theVisionOfFuture-cardItem{
+    height: 325px;
+    width: 33.35%;
+    padding: 32px;
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) ;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+.theVisionOfFutureCardItemColor1{
+    background-color: rgba(84, 144, 245, 0.2);
+
+}
+.theVisionOfFutureCardItemColor2{
+    background-color: #C6E4D6;
+}
+.theVisionOfFutureCardItemColor3{
+    background-color: #F7EBCF;
+}
+.theVisionOfFuture-cardItem img{
+    width: 64px;
+    height: 64px;
 }
