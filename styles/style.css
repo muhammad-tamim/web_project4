@@ -96,32 +96,33 @@ body{
 .donateToday-PrimaryButton1{
     padding: 40px;
     border-radius: 16px;
-    border: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: #FFFFFF;
     box-shadow: rgb(14, 14, 14, 0.15);
     color: rgba(14, 14, 14, 0.8);
     font-weight: 700;
     font-size: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .donateToday-primaryButton2{
     padding: 40px;
     border-radius: 16px;
-    border: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: #C6E4D6;
-    box-shadow: rgb(14, 14, 14, 0.15);
     color: rgba(14, 14, 14, 0.8);
     font-weight: 700;
     font-size: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .donateToday-secondaryButton{
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
     background-color: #006A50;
-    box-shadow: rgb(14, 14, 14, 0.1);
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .subscribeNewsletter-button{
     padding: 17px 34px;
@@ -163,7 +164,7 @@ body{
     color: rgba(14, 14, 14, 0.8);
 }
 .pillarsOfBangladesh-paragraph, .theVisionOfFuture-paragraph,
-.recentNews-paragraph, .donateToday-paragraph, .subscribeNewsletter-paragraph{
+.recentNews-paragraph, .donateToday-paragraph1, .subscribeNewsletter-paragraph{
     color: rgba(14, 14, 14, 0.7);
 }
 
@@ -373,4 +374,31 @@ tr > td{
 .recentNews-2ndCardContainer{
     flex-direction: row-reverse;
     margin: 24px auto;
+}
+
+/* Donate Today */
+.donateToday-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.donateToday-headerContent{
+    text-align: center;
+}
+.donateToday-headerContent > p{
+    margin: 24px auto 32px auto;
+}
+.donateToday-takaButtonContainer{
+    display: flex;
+    gap: 24px;
+    margin: 32px auto;
+}
+.donateToday-inputField{
+    padding: 20px 40px;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin: 32px auto;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1032px;
 }
