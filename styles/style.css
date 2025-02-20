@@ -423,3 +423,22 @@ tr > td{
     border-radius: 8px 0 0 8px;
     border: none;
 }
+
+/* Footer Section */
+.footerContainer{
+    text-align: center;
+}
+.footerContainer h2{
+    margin: 50px auto 32px auto;
+}
+.footer-horizontalRule > hr{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-imageContainer{
+    margin: 32px auto 50px auto;
+}
+.footer-2ndImage{
+    margin: auto 23px;
+}
