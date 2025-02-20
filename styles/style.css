@@ -327,8 +327,7 @@ table, td{
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 tr > td{
-    padding: 24px;
-
+    padding: 24px;          
 }
 .tableData1{
     width: 84%;
@@ -342,4 +341,36 @@ tr > td{
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+/* Recent News Section */
+.recentNews-headingContent > p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.recentNews-cardContainer{
+    padding: 48px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.recentNews-cardContainer{
+    display: flex;
+    gap: 32px;
+
+}
+.recentNews-cardItem1 >img{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.recentNews-cardItem2-image > img{
+    margin: 12px auto;
+}
+.recentNews-cardDescription{
+    margin: 12px auto 32px auto;
+}
+.recentNews-2ndCardContainer{
+    flex-direction: row-reverse;
+    margin: 24px auto;
 }
