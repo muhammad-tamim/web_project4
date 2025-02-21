@@ -38,6 +38,12 @@ body{
     font-weight: 600;
     font-size: 18px;
 }
+.nav-button:hover{
+    background-color: #006A50;
+    cursor: pointer;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
 .hero-button{
     padding: 17px 34px;
     border-radius: 8px;
@@ -46,6 +52,11 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
+}
+.hero-button:hover{
+    cursor: pointer;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: black;
 }
 .theVisionOfFuture-button1{
     padding: 11px 20px;
@@ -56,6 +67,11 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
+.theVisionOfFuture-button1:hover{
+    box-shadow: #5490F5 0px 20px 30px -10px;
+    cursor: pointer;
+    color: black;
+}
 .theVisionOfFuture-button2{
     padding: 11px 20px;
     border-radius: 8px;
@@ -65,7 +81,12 @@ body{
     font-weight: 600;
     font-size: 16px;
 }
-.theVisionOfFuture-button3            {
+.theVisionOfFuture-button2:hover{
+    box-shadow: #09A15C 0px 20px 30px -10px;
+    cursor: pointer;
+    color: black;
+}
+.theVisionOfFuture-button3{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
@@ -73,6 +94,11 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 16px;
+}
+.theVisionOfFuture-button3:hover{
+    box-shadow: #FFC239 0px 20px 30px -10px;
+    cursor: pointer;
+    color: black;
 }
 .yourOpinionMatter-button{
     padding: 10px 14px;
@@ -84,6 +110,11 @@ body{
     font-size: 16px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+.yourOpinionMatter-button:hover{
+    box-shadow: #C6E4D6 0px 20px 30px -10px;
+    cursor: pointer;
+    background-color: #c2f7de;
+}
 .recentNews-button{
     padding: 13px 26px;
     border-radius: 8px;
@@ -92,6 +123,11 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
+}
+.recentNews-button:hover{
+    cursor: pointer;
+    box-shadow: #006A50 0px 20px 30px -10px;
+    color: black;
 }
 .donateToday-PrimaryButton1{
     padding: 40px;
@@ -104,6 +140,11 @@ body{
     font-size: 40px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+.donateToday-PrimaryButton1:hover{
+    cursor: pointer;
+    box-shadow: rgb(167, 167, 167) 0px 20px 30px -10px;
+    background-color: #C6E4D6;
+}
 .donateToday-primaryButton2{
     padding: 40px;
     border-radius: 16px;
@@ -113,6 +154,11 @@ body{
     font-weight: 700;
     font-size: 40px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.donateToday-primaryButton2:hover{
+    cursor: pointer;
+    box-shadow: rgb(167, 167, 167) 0px 20px 30px -10px;
+    background-color: #C6E4D6;
 }
 .donateToday-secondaryButton{
     padding: 17px 34px;
@@ -124,6 +170,11 @@ body{
     font-size: 18px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
+.donateToday-secondaryButton:hover{
+    cursor: pointer;
+    box-shadow: #006A50 0px 20px 30px -10px;
+    color: black;
+}
 .subscribeNewsletter-button{
     padding: 17px 34px;
     border-radius: 0 8px 8px 0;
@@ -132,6 +183,11 @@ body{
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
+}
+.subscribeNewsletter-button:hover{
+    cursor: pointer;
+    box-shadow: #006A50 0px 20px 30px -10px;
+    color: black;
 }
 /* Headings and paragraphs*/
 .nav-heading, .footer_heading{
@@ -324,14 +380,14 @@ table, td{
     justify-content: space-between;
     padding: 24px;
     background-color: #C6E4D6;
-    padding-right: 30px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 tr > td{
-    padding: 24px;          
+    padding: 24px;
+
 }
 .tableData1{
-    width: 84%;
+    width: 80%;
 }
 .tableData2{
     width: auto;
@@ -404,6 +460,7 @@ tr > td{
 }
 
 /* Subscribe Newsletter Section */
+
 .subscribeNewsletter-container{
     padding: 80px 100px;
     border-radius: 24px;
